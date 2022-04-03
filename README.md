@@ -1,6 +1,6 @@
 # Simple Web Server that Listens on Port 8080 in Go
 
-This was all done on a mac-mini running ubuntu 20.04 LTS.
+This was all done on a mac-mini running ubuntu 20.04 LTS. This was a tutorial from freeCodeCamp. You can watch it here https://www.youtube.com/watch?v=jFfo23yIWac&t=22s
 
 ## Prereqs
 
