@@ -1,0 +1,23 @@
+version: "3"
+
+tasks:
+
+    tidy:
+        desc: Build the app
+        cmds:
+        - GOFLAGS=-mod=mod go mod tidy
+
+    build:
+        desc: Build the app
+        cmds:
+        - GOFLAGS=-mod=mod go build main.go 
+
+    run: 
+        desc: Run the app
+        cmds:
+        - GOFLAGS=-mod=mod ./main
+
+    gitg: 
+        desc: Run the app
+        cmds:
+        - GOFLAGS=-mod=mod git log --graph --oneline
